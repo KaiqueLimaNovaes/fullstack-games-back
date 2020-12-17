@@ -8,3 +8,4 @@ header("Content-type: application/json");   //Indicação de arquivo JSON
 $produtos = Produto::getAll();
 
 echo json_encode($produtos);
+?>

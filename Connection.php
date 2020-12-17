@@ -5,7 +5,7 @@ class Connection
     public static function getDb()
     {
         $conn = new PDO(
-            "mysql:host=192.168.0.39;dbname=fullstackgames;charset=utf8",
+            "mysql:host=192.168.0.41;dbname=fullstackgames",
             "kaique",
             "12345"
         );

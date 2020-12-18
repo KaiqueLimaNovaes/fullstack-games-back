@@ -1,5 +1,5 @@
 <?php
-/*
+
 $link = mysqli_connect("192.168.0.41", "root", "root", "fullstackgames");
  
 if (!$link) {
@@ -12,8 +12,9 @@ if (!$link) {
 echo "Sucesso: Sucesso ao conectar-se com a base de dados MySQL." . PHP_EOL;
  
 mysqli_close($link);
-*/
 
+
+/*
 $conn = new PDO(
     "mysql:host=192.168.0.41;dbname=fullstackgames",
     "root",
@@ -26,4 +27,5 @@ if ($conn) {
 } else {
     echo "<h1>Erro ao realizar conexão</h1>";
 }
+*/
 

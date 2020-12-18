@@ -8,7 +8,7 @@ class Connection
         $conn = new PDO(
             "mysql:host=192.168.0.41;dbname=fullstackgames",
             "root",
-            ""
+            "root"
         );
 
         if ($conn) {

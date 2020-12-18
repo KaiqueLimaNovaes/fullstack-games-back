@@ -1,5 +1,4 @@
 <?php
-echo "<h1>Teste</h1>";
 
 class Connection
 {
@@ -13,6 +12,7 @@ class Connection
 
         if ($conn) {
             return $conn;
+            echo "<h1>Teste</h1>";
         } else {
             echo "<h1>Erro ao realizar conexão</h1>";
         }

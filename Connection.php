@@ -4,7 +4,7 @@ class Connection
 {
     public static function getDb()
     {
-        /*
+        
         $conn = new PDO(
             "mysql:host=192.168.0.41;dbname=fullstackgames",
             "root",
@@ -17,8 +17,8 @@ class Connection
         } else {
             echo "<h1>Erro ao realizar conexão</h1>";
         }
-        */
-
+        
+        /*
         $conn = mysqli_connect("192.168.0.41", "root", "root", "fullstackgames");
  
         if (!$conn) {
@@ -32,5 +32,6 @@ class Connection
         return $conn;
         
         mysqli_close($conn);
+        */
     }
 }

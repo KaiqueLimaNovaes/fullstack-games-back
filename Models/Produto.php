@@ -10,7 +10,7 @@ class Produto
         $connection = Connection::getDb();
 
         $stmt = $connection->query("SELECT * FROM produtos");
-        return $stmt;//->fetchAll(mysqli_connect::FETCH_ASSOC);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
 }

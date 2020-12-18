@@ -4,7 +4,7 @@ class Connection
 {
     public static function getDb()
     {
-        /*
+        
         $conn = new PDO(
             "mysql:host=192.168.0.41;dbname=fullstackgames",
             "root",
@@ -13,12 +13,11 @@ class Connection
 
         if ($conn) {
             return $conn;
-            echo "<h1>Teste</h1>";
         } else {
             echo "<h1>Erro ao realizar conexão</h1>";
         }
-        */
         
+        /*
         $conn = mysqli_connect("192.168.0.41", "root", "root", "fullstackgames");
  
         if (!$conn) {
@@ -28,10 +27,10 @@ class Connection
             exit;
         }
         
-        echo "Sucesso: Sucesso ao conectar-se com a base de dados MySQL." . PHP_EOL;
+        //echo "Sucesso: Sucesso ao conectar-se com a base de dados MySQL." . PHP_EOL;
         return $conn;
         
         mysqli_close($conn);
-        
+        */
     }
 }

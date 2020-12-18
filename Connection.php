@@ -6,7 +6,7 @@ class Connection
     {
         
         $conn = new PDO(
-            "mysql:host=192.168.0.41;dbname=fullstackgames",
+            "mysql:host=192.168.100.135;dbname=fullstackgames",
             "root",
             "root"
         );

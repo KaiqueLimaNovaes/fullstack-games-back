@@ -12,7 +12,6 @@ class Connection
         );
 
         if ($conn) {
-            echo "<h1>Teste</h1>";
             return $conn;
         } else {
             echo "<h1>Erro ao realizar conexão</h1>";
